@@ -1,0 +1,18 @@
+info:
+  namespace: iaweapons
+recipes:
+  crafting_table:
+    firework_launcher:
+      permission: iaweapons.firework_launcher
+      enabled: true
+      pattern:
+        - XXX
+        - WII
+        - WPX
+      ingredients:
+        W: OAK_PLANKS
+        I: IRON_INGOT
+        P: FIREWORK_ROCKET
+      result:
+        item: iaweapons:firework_launcher
+        amount: 1

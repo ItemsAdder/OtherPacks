@@ -1,0 +1,190 @@
+info:
+  namespace: iadeco
+items:
+  painting_burst:
+    enabled: true
+    display_name: display-name-painting_burst
+    permission: iadeco.decorations.paintings.painting_burst
+    lore:
+      - '&7S5Z7 - Burst'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: painting_burst
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 1
+          height: 1
+          length_offset: 0.5
+  painting_courbet:
+    enabled: true
+    display_name: display-name-painting_courbet
+    permission: iadeco.decorations.paintings.painting_courbet
+    lore:
+      - '&7S5Z7 - Courbet'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: painting_courbet
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 1
+          length_offset: 0.5
+          width_offset: -0.5
+  painting_graham:
+    enabled: true
+    display_name: display-name-painting_graham
+    permission: iadeco.decorations.paintings.painting_graham
+    lore:
+      - '&7S5Z7 - Graham'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: painting_graham
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 1
+          height: 2
+          length_offset: 0.5
+  painting_match:
+    enabled: true
+    display_name: display-name-painting_match
+    permission: iadeco.decorations.paintings.painting_match
+    lore:
+      - '&7S5Z7 - Match'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: painting_match
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 2
+          length_offset: 0.5
+          width_offset: -0.5
+  painting_pool:
+    enabled: true
+    display_name: display-name-painting_pool
+    permission: iadeco.decorations.paintings.painting_pool
+    lore:
+      - '&7S5Z7 - Pool'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: painting_pool
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 1
+          length_offset: 0.5
+          width_offset: -0.5
+  painting_skull_and_roses:
+    enabled: true
+    display_name: display-name-painting_skull_and_roses
+    permission: iadeco.decorations.paintings.painting_skull_and_roses
+    lore:
+      - '&7S5Z7 - Skull and roses'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: painting_skull_and_roses
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 2
+          length_offset: 0.5
+          width_offset: -0.5
+  painting_stage:
+    enabled: true
+    display_name: display-name-painting_stage
+    permission: iadeco.decorations.paintings.painting_stage
+    lore:
+      - '&7S5Z7 - Stage'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: painting_stage
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 2
+          length_offset: 0.5
+          width_offset: -0.5
+  painting_void:
+    enabled: true
+    display_name: display-name-painting_void
+    permission: iadeco.decorations.paintings.painting_void
+    lore:
+      - '&7S5Z7 - Void'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: painting_void
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 2
+          length_offset: 0.5
+          width_offset: -0.5
+  painting_wanderer:
+    enabled: true
+    display_name: display-name-painting_wanderer
+    permission: iadeco.decorations.paintings.painting_wanderer
+    lore:
+      - '&7S5Z7 - Wanderer'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: painting_wanderer
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 1
+          height: 2
+          length_offset: 0.5

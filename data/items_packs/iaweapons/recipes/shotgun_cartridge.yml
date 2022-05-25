@@ -1,0 +1,18 @@
+info:
+  namespace: iaweapons
+recipes:
+  crafting_table:
+    shotgun_cartridge:
+      permission: iaweapons.shotgun_cartridge
+      enabled: true
+      pattern:
+        - XXX
+        - PRP
+        - XGX
+      ingredients:
+        R: REDSTONE
+        G: GOLD_INGOT
+        P: iasurvival:plastic_plate
+      result:
+        item: iaweapons:shotgun_cartridge
+        amount: 1

@@ -1,0 +1,16 @@
+info:
+  namespace: iadeco
+items:
+  tv:
+    enabled: true
+    display_name: display-name-tv
+    permission: iadeco.decorations.tv
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: tv
+    behaviours:
+      furniture:
+        small: true

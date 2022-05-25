@@ -1,0 +1,16 @@
+info:
+  namespace: iadeco
+items:
+  opened_chest:
+    enabled: true
+    display_name: display-name-opened_chest
+    permission: iadeco.decorations.opened_chest
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: opened_chest
+    behaviours:
+      furniture:
+        solid: true

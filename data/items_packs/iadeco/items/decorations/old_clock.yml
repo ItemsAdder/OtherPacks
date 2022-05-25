@@ -1,0 +1,20 @@
+info:
+  namespace: iadeco
+items:
+  old_clock:
+    enabled: true
+    display_name: display-name-old_clock
+    permission: iadeco.decorations.old_clock
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: old_clock
+    behaviours:
+      furniture:
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 3

@@ -1,0 +1,26 @@
+info:
+  namespace: iaweapons
+items:
+  grenade:
+    enabled: true
+    display_name: display-name-grenade
+    permission: iaweapons.items.grenade
+    resource:
+      material: SNOWBALL
+      generate: true
+      textures:
+        - grenade
+    events:
+      item_throw:
+        play_effect:
+          name: SMOKE
+      item_hit_ground:
+        explosion:
+          power: 2
+          fire: false
+          break_blocks: true
+      item_hit_entity:
+        explosion:
+          power: 2
+          fire: false
+          break_blocks: true

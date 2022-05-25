@@ -1,0 +1,17 @@
+info:
+  namespace: iadeco
+items:
+  table:
+    enabled: true
+    display_name: display-name-table
+    permission: iadeco.decorations.table
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: table
+    behaviours:
+      furniture:
+        small: true
+        solid: true

@@ -1,0 +1,17 @@
+info:
+  namespace: iadeco
+items:
+  lava_lamp:
+    enabled: true
+    display_name: display-name-lava_lamp
+    permission: iadeco.decorations.lava_lamp
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: lava_lamp
+    behaviours:
+      furniture:
+        small: true
+        light_level: 7

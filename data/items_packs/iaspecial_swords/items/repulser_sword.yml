@@ -1,0 +1,17 @@
+info:
+  namespace: iaspecial_swords
+items:
+  repulser_sword:
+    enabled: true
+    display_name: display-name-repulser_sword
+    permission: iaspecial_swords.items.repulser_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+        - item/repulser_sword
+    durability:
+      max_custom_durability: 1756
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9

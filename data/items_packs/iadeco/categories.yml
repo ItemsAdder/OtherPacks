@@ -1,0 +1,97 @@
+info:
+  namespace: iadeco
+categories:
+  furnitures:
+    enabled: true
+    skip_if_already: false
+    icon: iadeco:old_clock
+    name: display-category-furnitures
+    permission: ia.menu.seecategory.furnitures
+    items:
+      - iadeco:old_clock
+      - iadeco:opened_chest
+      - iadeco:computer_desk
+      - iadeco:table
+      - iadeco:glass_table
+      - iadeco:lamp
+      - iadeco:lava_lamp
+      - iadeco:tv
+      - iadeco:monitor
+      - iadeco:mini_fridge
+      - iadeco:mysterious_stone
+      - iadeco:alchemy_candles
+      - iadeco:white_chandeliers
+      - iadeco:black_chandeliers
+      - iadeco:black_and_red_chandeliers
+      - iadeco:small_fountain
+      - iadeco:lit_campfire
+  paintings:
+    enabled: true
+    skip_if_already: false
+    icon: iadeco:painting_burst
+    name: display-category-paintings
+    permission: ia.menu.seecategory.paintings
+    items:
+      - iadeco:painting_burst
+      - iadeco:painting_courbet
+      - iadeco:painting_graham
+      - iadeco:painting_match
+      - iadeco:painting_pool
+      - iadeco:painting_skull_and_roses
+      - iadeco:painting_stage
+      - iadeco:painting_void
+      - iadeco:painting_wanderer
+  chairs:
+    enabled: true
+    skip_if_already: false
+    icon: iadeco:simple_chair
+    name: display-category-chairs
+    permission: ia.menu.seecategory.chairs
+    items:
+      - iadeco:simple_chair
+      - iadeco:white_chair
+      - iadeco:computer_chair
+      - iadeco:white_bar_chair
+      - iadeco:orange_bar_chair
+      - iadeco:magenta_bar_chair
+      - iadeco:light_blue_bar_chair
+      - iadeco:yellow_bar_chair
+      - iadeco:lime_bar_chair
+      - iadeco:pink_bar_chair
+      - iadeco:gray_bar_chair
+      - iadeco:light_gray_bar_chair
+      - iadeco:cyan_bar_chair
+      - iadeco:purple_bar_chair
+      - iadeco:blue_bar_chair
+      - iadeco:brown_bar_chair
+      - iadeco:green_bar_chair
+      - iadeco:red_bar_chair
+      - iadeco:black_bar_chair
+      - iadeco:white_wood_chair
+      - iadeco:orange_wood_chair
+      - iadeco:magenta_wood_chair
+      - iadeco:light_blue_wood_chair
+      - iadeco:yellow_wood_chair
+      - iadeco:lime_wood_chair
+      - iadeco:pink_wood_chair
+      - iadeco:gray_wood_chair
+      - iadeco:light_gray_wood_chair
+      - iadeco:cyan_wood_chair
+      - iadeco:purple_wood_chair
+      - iadeco:blue_wood_chair
+      - iadeco:brown_wood_chair
+      - iadeco:green_wood_chair
+      - iadeco:red_wood_chair
+      - iadeco:black_wood_chair
+      - iadeco:school_chair
+      - iadeco:school_chair_lazy
+      - iadeco:dark_throne
+  machines:
+    enabled: true
+    skip_if_already: false
+    icon: iadeco:vending_machine
+    name: display-category-machines
+    permission: ia.menu.seecategory.machines
+    items:
+      - iadeco:vending_machine
+      - iadeco:coffee_machine

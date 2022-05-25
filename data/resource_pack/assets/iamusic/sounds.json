@@ -1,0 +1,17 @@
+{
+	"music_disc.electric_keys":{
+		"sounds":[
+			"iamusic:music_disc/electric_keys"
+		]
+	},
+	"music_disc.cdk_sunday":{
+		"sounds":[
+			"iamusic:music_disc/cdk_sunday"
+		]
+	},
+	"music_disc.vidian_aether_theories":{
+		"sounds":[
+			"iamusic:music_disc/vidian_aether_theories"
+		]
+	}
+}

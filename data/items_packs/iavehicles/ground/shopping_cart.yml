@@ -1,0 +1,28 @@
+info:
+  namespace: iavehicles
+items:
+  shopping_cart:
+    enabled: true
+    display_name: display-name-shopping_cart
+    permission: iavehicles.ground.shopping_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/shopping_cart
+    behaviours:
+      vehicle:
+        sit_height: 2
+        step_height: 0.1
+        hitbox:
+          length: 2
+          width: 2.3
+          height: 1
+        speed:
+          drive: 0.3
+          jump: 0.3
+        fuel:
+          start: 60
+          max: 300
+          items:
+            banana: 30
+            pear: 30

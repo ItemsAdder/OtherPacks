@@ -1,0 +1,21 @@
+info:
+  namespace: iavehicles
+recipes:
+  crafting_table:
+    ufo:
+      permission: iavehicles.ufo
+      enabled: true
+      pattern:
+        - ELE
+        - RSR
+        - BMB
+      ingredients:
+        S: iasurvival:end_ingot
+        R: REDSTONE_BLOCK
+        B: SLIME_BALL
+        L: LEVER
+        E: iaalchemy:small_energy_capsule
+        M: iaalchemy:mysterious_material
+      result:
+        item: iavehicles:ufo
+        amount: 1

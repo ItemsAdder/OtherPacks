@@ -1,0 +1,18 @@
+info:
+  namespace: iaweapons
+recipes:
+  crafting_table:
+    ak47:
+      permission: iaweapons.ak47
+      enabled: true
+      pattern:
+        - DDI
+        - ISX
+        - IXX
+      ingredients:
+        I: IRON_INGOT
+        D: DIAMOND
+        S: STICK
+      result:
+        item: iaweapons:ak47
+        amount: 1

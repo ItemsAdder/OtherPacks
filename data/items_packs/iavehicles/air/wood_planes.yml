@@ -1,0 +1,201 @@
+info:
+  namespace: iavehicles
+items:
+  oak_wood_plane:
+    enabled: true
+    display_name: display-name-oak_wood_plane
+    permission: iavehicles.air.wood_planes.oak_wood_plane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: air/oak_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 1
+            z: -2
+  spruce_wood_plane:
+    enabled: true
+    display_name: display-name-spruce_wood_plane
+    permission: iavehicles.air.wood_planes.spruce_wood_plane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: air/spruce_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 1
+            z: -2
+  birch_wood_plane:
+    enabled: true
+    display_name: display-name-birch_wood_plane
+    permission: iavehicles.air.wood_planes.birch_wood_plane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: air/birch_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 1
+            z: -2
+  jungle_wood_plane:
+    enabled: true
+    display_name: display-name-jungle_wood_plane
+    permission: iavehicles.air.wood_planes.jungle_wood_plane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: air/jungle_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 1
+            z: -2
+  acacia_wood_plane:
+    enabled: true
+    display_name: display-name-acacia_wood_plane
+    permission: iavehicles.air.wood_planes.acacia_wood_plane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: air/acacia_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 1
+            z: -2
+  dark_oak_wood_plane:
+    enabled: true
+    display_name: display-name-dark_oak_wood_plane
+    permission: iavehicles.air.wood_planes.dark_oak_wood_plane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: air/dark_oak_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 1
+            z: -2

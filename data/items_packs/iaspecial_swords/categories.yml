@@ -1,0 +1,19 @@
+info:
+  namespace: iaspecial_swords
+categories:
+  swords:
+    enabled: true
+    skip_if_already: false
+    name: display-category-swords
+    permission: ia.menu.seecategory.swords
+    items:
+      - iaspecial_swords:baseball_bat
+      - iaspecial_swords:elucidator_sword
+      - iaspecial_swords:repulser_sword
+      - iaspecial_swords:floating_sword
+      - iaspecial_swords:gandalf_stick
+      - iaspecial_swords:guitar_sword
+      - iaspecial_swords:green_lightsaber
+      - iaspecial_swords:red_lightsaber
+      - iaspecial_swords:blue_lightsaber
+      - iaspecial_swords:masters_sword

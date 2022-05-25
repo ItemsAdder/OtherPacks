@@ -1,0 +1,46 @@
+info:
+  namespace: iadeco
+items:
+  vending_machine:
+    enabled: true
+    display_name: display-name-vending_machine
+    permission: iadeco.decorations.vending_machine
+    lore:
+      - lore-1-vending_machine
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vending_machine
+    behaviours:
+      furniture_trade_machine:
+        title: Vending Machine
+        gui_texture:
+          left: vending_machine_left
+          right: vending_machine_right
+        trades_list:
+          hamburger:
+            ingredients:
+              slot1:
+                item: COBBLESTONE
+                amount: 64
+              slot2:
+                item: COBBLESTONE
+                amount: 32
+            result:
+              item: hamburger
+              amount: 1
+          hotdog:
+            ingredients:
+              slot1:
+                item: COBBLESTONE
+                amount: 64
+              slot2:
+                item: COBBLESTONE
+                amount: 32
+            result:
+              item: hotdog
+              amount: 1
+      furniture:
+        solid: true
+        hitbox:
+          height: 2

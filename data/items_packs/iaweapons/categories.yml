@@ -1,0 +1,19 @@
+info:
+  namespace: iaweapons
+categories:
+  weapons:
+    enabled: true
+    skip_if_already: false
+    icon: iaweapons:revolver
+    name: display-category-weapons
+    permission: ia.menu.seecategory.weapons
+    items:
+      - iaweapons:projectile
+      - iaweapons:revolver
+      - iaweapons:hand_gun
+      - iaweapons:clip
+      - iaweapons:ak47
+      - iaweapons:grenade
+      - iaweapons:shotgun_cartridge
+      - iaweapons:shotgun
+      - iaweapons:firework_launcher

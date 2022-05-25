@@ -1,0 +1,18 @@
+info:
+  namespace: iaweapons
+recipes:
+  crafting_table:
+    shotgun:
+      permission: iaweapons.shotgun
+      enabled: true
+      pattern:
+        - XXX
+        - WII
+        - WPX
+      ingredients:
+        W: OAK_PLANKS
+        I: IRON_INGOT
+        P: GUNPOWDER
+      result:
+        item: iaweapons:shotgun
+        amount: 1

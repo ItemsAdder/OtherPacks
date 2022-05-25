@@ -1,0 +1,243 @@
+info:
+  namespace: iadeco
+items:
+  white_wood_chair:
+    enabled: true
+    display_name: display-name-white_wood_chair
+    permission: iadeco.chairs.wood_chairs.white_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: white_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  orange_wood_chair:
+    enabled: true
+    display_name: display-name-orange_wood_chair
+    permission: iadeco.chairs.wood_chairs.orange_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: orange_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  magenta_wood_chair:
+    enabled: true
+    display_name: display-name-magenta_wood_chair
+    permission: iadeco.chairs.wood_chairs.magenta_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: magenta_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  light_blue_wood_chair:
+    enabled: true
+    display_name: display-name-light_blue_wood_chair
+    permission: iadeco.chairs.wood_chairs.light_blue_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: light_blue_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  yellow_wood_chair:
+    enabled: true
+    display_name: display-name-yellow_wood_chair
+    permission: iadeco.chairs.wood_chairs.yellow_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: yellow_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  lime_wood_chair:
+    enabled: true
+    display_name: display-name-lime_wood_chair
+    permission: iadeco.chairs.wood_chairs.lime_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: lime_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  pink_wood_chair:
+    enabled: true
+    display_name: display-name-pink_wood_chair
+    permission: iadeco.chairs.wood_chairs.pink_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: pink_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  gray_wood_chair:
+    enabled: true
+    display_name: display-name-gray_wood_chair
+    permission: iadeco.chairs.wood_chairs.gray_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: gray_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  light_gray_wood_chair:
+    enabled: true
+    display_name: display-name-light_gray_wood_chair
+    permission: iadeco.chairs.wood_chairs.light_gray_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: light_gray_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  cyan_wood_chair:
+    enabled: true
+    display_name: display-name-cyan_wood_chair
+    permission: iadeco.chairs.wood_chairs.cyan_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: cyan_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  purple_wood_chair:
+    enabled: true
+    display_name: display-name-purple_wood_chair
+    permission: iadeco.chairs.wood_chairs.purple_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: purple_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  blue_wood_chair:
+    enabled: true
+    display_name: display-name-blue_wood_chair
+    permission: iadeco.chairs.wood_chairs.blue_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blue_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  brown_wood_chair:
+    enabled: true
+    display_name: display-name-brown_wood_chair
+    permission: iadeco.chairs.wood_chairs.brown_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: brown_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  green_wood_chair:
+    enabled: true
+    display_name: display-name-green_wood_chair
+    permission: iadeco.chairs.wood_chairs.green_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: green_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  red_wood_chair:
+    enabled: true
+    display_name: display-name-red_wood_chair
+    permission: iadeco.chairs.wood_chairs.red_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: red_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  black_wood_chair:
+    enabled: true
+    display_name: display-name-black_wood_chair
+    permission: iadeco.chairs.wood_chairs.black_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: black_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45

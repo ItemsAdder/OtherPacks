@@ -1,0 +1,16 @@
+info:
+  namespace: iadeco
+items:
+  monitor:
+    enabled: true
+    display_name: display-name-monitor
+    permission: iadeco.decorations.monitor
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: monitor
+    behaviours:
+      furniture:
+        small: true

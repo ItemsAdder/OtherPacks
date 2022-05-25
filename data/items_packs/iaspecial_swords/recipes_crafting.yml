@@ -1,0 +1,141 @@
+info:
+  namespace: iaspecial_swords
+recipes:
+  crafting_table:
+    blue_lightsaber:
+      permission: iaspecial_swords.blue_lightsaber
+      enabled: true
+      pattern:
+        - XLX
+        - DLR
+        - XSX
+      ingredients:
+        L: LAPIS_BLOCK
+        S: BLAZE_ROD
+        R: REDSTONE
+        D: DIAMOND
+      result:
+        item: iaspecial_swords:blue_lightsaber
+        amount: 1
+    green_lightsaber:
+      permission: iaspecial_swords.green_lightsaber
+      enabled: true
+      pattern:
+        - XLX
+        - DLR
+        - XSX
+      ingredients:
+        L: EMERALD_BLOCK
+        S: BLAZE_ROD
+        R: REDSTONE
+        D: DIAMOND
+      result:
+        item: iaspecial_swords:green_lightsaber
+        amount: 1
+    red_lightsaber:
+      permission: iaspecial_swords.red_lightsaber
+      enabled: true
+      pattern:
+        - XLX
+        - DLR
+        - XSX
+      ingredients:
+        L: REDSTONE_BLOCK
+        S: BLAZE_ROD
+        R: REDSTONE
+        D: DIAMOND
+      result:
+        item: iaspecial_swords:red_lightsaber
+        amount: 1
+    masters_sword:
+      permission: iaspecial_swords.masters_sword
+      enabled: true
+      pattern:
+        - XdX
+        - sds
+        - sss
+      ingredients:
+        s: LAPIS_BLOCK
+        d: DIAMOND
+      result:
+        item: iaspecial_swords:masters_sword
+        amount: 1
+    floating_sword:
+      permission: iaspecial_swords.floating_sword
+      enabled: true
+      pattern:
+        - XdX
+        - sds
+        - sss
+      ingredients:
+        s: OAK_PLANKS
+        d: DIAMOND
+      result:
+        item: iaspecial_swords:floating_sword
+        amount: 1
+    baseball_bat:
+      permission: iaspecial_swords.baseball_bat
+      enabled: true
+      pattern:
+        - XwX
+        - XwX
+        - XwX
+      ingredients:
+        w: OAK_PLANKS
+      result:
+        item: iaspecial_swords:baseball_bat
+        amount: 1
+    gandalf_stick:
+      permission: iaspecial_swords.gandalf_stick
+      enabled: true
+      pattern:
+        - XDX
+        - XAX
+        - XSX
+      ingredients:
+        D: DIAMOND
+        S: STICK
+        A: STRING
+      result:
+        item: iaspecial_swords:gandalf_stick
+        amount: 1
+    elucidator_sword:
+      permission: iaspecial_swords.elucidator_sword
+      enabled: true
+      pattern:
+        - XoX
+        - XoX
+        - XbX
+      ingredients:
+        o: OBSIDIAN
+        b: BLAZE_ROD
+      result:
+        item: iaspecial_swords:elucidator_sword
+        amount: 1
+    repulser_sword:
+      permission: iaspecial_swords.repulser_sword
+      enabled: true
+      pattern:
+        - XdX
+        - ddd
+        - XbX
+      ingredients:
+        d: DIAMOND
+        b: BLAZE_ROD
+      result:
+        item: iaspecial_swords:repulser_sword
+        amount: 1
+    guitar_sword:
+      permission: iaspecial_swords.guitar_sword
+      enabled: true
+      pattern:
+        - XXD
+        - WRX
+        - WWX
+      ingredients:
+        W: OAK_PLANKS
+        R: REDSTONE
+        D: DIAMOND
+      result:
+        item: iaspecial_swords:guitar_sword
+        amount: 1

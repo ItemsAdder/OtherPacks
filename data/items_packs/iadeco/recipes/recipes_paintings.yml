@@ -1,0 +1,133 @@
+info:
+  namespace: iadeco
+recipes:
+  crafting_table:
+    painting_burst:
+      permission: iadeco.paintings.painting_burst
+      enabled: true
+      pattern:
+        - LLL
+        - BPW
+        - BGY
+      ingredients:
+        P: PAINTING
+        L: LIGHT_BLUE_DYE
+        B: BROWN_DYE
+        'Y': YELLOW_DYE
+        W: WHITE_DYE
+        G: LIGHT_GRAY_DYE
+      result:
+        item: iadeco:painting_burst
+        amount: 1
+    painting_courbet:
+      permission: iadeco.paintings.painting_courbet
+      enabled: true
+      pattern:
+        - YLL
+        - YPL
+        - YGY
+      ingredients:
+        P: PAINTING
+        L: LIGHT_BLUE_DYE
+        'Y': YELLOW_DYE
+        G: LIME_DYE
+      result:
+        item: iadeco:painting_courbet
+        amount: 1
+    painting_graham:
+      permission: iadeco.paintings.painting_graham
+      enabled: true
+      pattern:
+        - WLW
+        - WPW
+        - WGW
+      ingredients:
+        P: PAINTING
+        L: LIGHT_BLUE_DYE
+        G: LIME_DYE
+        W: WHITE_DYE
+      result:
+        item: iadeco:painting_graham
+        amount: 1
+    painting_match:
+      permission: iadeco.paintings.painting_match
+      enabled: true
+      pattern:
+        - WGG
+        - WPG
+        - WGG
+      ingredients:
+        P: PAINTING
+        G: LIME_DYE
+        W: WHITE_DYE
+      result:
+        item: iadeco:painting_match
+        amount: 1
+    painting_pool:
+      permission: iadeco.paintings.painting_pool
+      enabled: true
+      pattern:
+        - XEX
+        - XPX
+        - XXX
+      ingredients:
+        P: PAINTING
+        E: ENDER_EYE
+      result:
+        item: iadeco:painting_pool
+        amount: 1
+    painting_skull_and_roses:
+      permission: iadeco.paintings.painting_skull_and_roses
+      enabled: true
+      pattern:
+        - XJX
+        - IPI
+        - XIX
+      ingredients:
+        P: PAINTING
+        J: JACK_O_LANTERN
+        I: IRON_INGOT
+      result:
+        item: iadeco:painting_skull_and_roses
+        amount: 1
+    painting_stage:
+      permission: iadeco.paintings.painting_stage
+      enabled: true
+      pattern:
+        - XXX
+        - SPS
+        - SSS
+      ingredients:
+        P: PAINTING
+        S: SANDSTONE
+      result:
+        item: iadeco:painting_stage
+        amount: 1
+    painting_void:
+      permission: iadeco.paintings.painting_void
+      enabled: true
+      pattern:
+        - CCC
+        - CPC
+        - CCC
+      ingredients:
+        P: PAINTING
+        C: CYAN_DYE
+      result:
+        item: iadeco:painting_void
+        amount: 1
+    painting_wanderer:
+      permission: iadeco.paintings.painting_wanderer
+      enabled: true
+      pattern:
+        - BLB
+        - BPB
+        - OOO
+      ingredients:
+        P: PAINTING
+        L: PURPLE_DYE
+        B: BLACK_DYE
+        O: ORANGE_DYE
+      result:
+        item: iadeco:painting_wanderer
+        amount: 1

@@ -1,0 +1,17 @@
+info:
+  namespace: iaspecial_swords
+items:
+  baseball_bat:
+    enabled: true
+    display_name: display-name-baseball_bat
+    permission: iaspecial_swords.items.baseball_bat
+    resource:
+      material: WOODEN_SWORD
+      generate: false
+      model_path: item/baseball_bat
+    durability:
+      max_custom_durability: 40
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 2
+        attackSpeed: 4

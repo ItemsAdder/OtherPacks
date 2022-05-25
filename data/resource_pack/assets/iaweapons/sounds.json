@@ -1,0 +1,24 @@
+{
+	"item.revolver.shot":{
+		"sounds":[
+			"iaweapons:item/revolver/shot1",
+			"iaweapons:item/revolver/shot2",
+			"iaweapons:item/revolver/shot3"
+		]
+	},
+	"item.revolver.no_ammo":{
+		"sounds":[
+			"iaweapons:item/revolver/no_ammo"
+		]
+	},
+	"item.shotgun.shot":{
+		"sounds":[
+			"iaweapons:item/shotgun/shot"
+		]
+	},
+	"item.shotgun.reload":{
+		"sounds":[
+			"iaweapons:item/shotgun/reload"
+		]
+	}
+}

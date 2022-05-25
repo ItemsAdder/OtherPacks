@@ -1,0 +1,23 @@
+{
+	"item.lightsaber.attack":{
+		"sounds":[
+			"iaspecial_swords:item/lightsaber/attack1",
+			"iaspecial_swords:item/lightsaber/attack2",
+			"iaspecial_swords:item/lightsaber/attack3"
+		]
+	},
+	"item.lightsaber.open":{
+		"sounds":[
+			"iaspecial_swords:item/lightsaber/open1",
+			"iaspecial_swords:item/lightsaber/open2",
+			"iaspecial_swords:item/lightsaber/open3"
+		]
+	},
+	"item.guitar.play":{
+		"sounds":[
+			"iaspecial_swords:item/guitar/play1",
+			"iaspecial_swords:item/guitar/play2",
+			"iaspecial_swords:item/guitar/play3"
+		]
+	}
+}

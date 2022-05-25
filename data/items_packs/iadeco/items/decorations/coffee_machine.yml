@@ -1,0 +1,44 @@
+info:
+  namespace: iadeco
+font_images:
+  coffee_machine_left:
+    suggest_in_command: false
+    show_in_gui: false
+    path: gui/coffee_machine_left
+    y_position: 12
+  coffee_machine_right:
+    suggest_in_command: false
+    show_in_gui: false
+    path: gui/coffee_machine_right
+    y_position: 12
+items:
+  coffee_machine:
+    enabled: true
+    display_name: display-name-coffee_machine
+    permission: iadeco.decorations.coffee_machine
+    lore:
+      - lore-1-coffee_machine
+    resource:
+      material: PAPER
+      generate: false
+      model_path: coffee_machine
+    behaviours:
+      furniture:
+        small: true
+      furniture_trade_machine:
+        title: Coffee Machine
+        gui_texture:
+          left: coffee_machine_left
+          right: coffee_machine_right
+        trades_list:
+          hamburger:
+            ingredients:
+              slot1:
+                item: COCOA_BEANS
+                amount: 4
+              slot2:
+                item: empty_cup
+                amount: 1
+            result:
+              item: coffee
+              amount: 1

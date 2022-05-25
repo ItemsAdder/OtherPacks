@@ -1,0 +1,17 @@
+info:
+  namespace: iaweapons
+recipes:
+  crafting_table:
+    projectile:
+      permission: iaweapons.projectile
+      enabled: true
+      pattern:
+        - XXX
+        - XRX
+        - XGX
+      ingredients:
+        R: REDSTONE
+        G: GOLD_INGOT
+      result:
+        item: iaweapons:projectile
+        amount: 16

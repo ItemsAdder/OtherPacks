@@ -1,0 +1,18 @@
+info:
+  namespace: iavehicles
+recipes:
+  crafting_table:
+    ufo_toy:
+      permission: iavehicles.ufo_toy
+      enabled: true
+      pattern:
+        - PPP
+        - PEL
+        - PRP
+      ingredients:
+        P: iasurvival:plastic_plate
+        R: REDSTONE_BLOCK
+        L: LEVER
+      result:
+        item: iavehicles:ufo_toy
+        amount: 1

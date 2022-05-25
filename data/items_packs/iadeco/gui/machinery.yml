@@ -1,0 +1,13 @@
+info:
+  namespace: iadeco
+font_images:
+  vending_machine_left:
+    suggest_in_command: false
+    show_in_gui: false
+    path: gui/vending_machine_left
+    y_position: 12
+  vending_machine_right:
+    suggest_in_command: false
+    show_in_gui: false
+    path: gui/vending_machine_right
+    y_position: 12

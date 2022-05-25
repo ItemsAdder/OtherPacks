@@ -1,0 +1,75 @@
+info:
+  namespace: iamusic
+items:
+  blank_disc:
+    enabled: true
+    display_name: display-name-blank_disc
+    permission: iamusic.blank_disc
+    lore:
+      - lore-1-blank_disc
+      - lore-2-blank_disc
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - item/blank_disc
+  music_disc_electric_keys:
+    enabled: true
+    display_name: display-name-music_disc_electric_keys
+    permission: iamusic.music_disc_electric_keys
+    copyright: >-
+      SuperGoodSound - Electric Keys (c) copyright.
+      http://freecommercialmusic.com
+    lore:
+      - '&7Electric keys'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - item/music_disc_electric_keys
+    behaviours:
+      music_disc:
+        song:
+          name: iamusic:music_disc.electric_keys
+          description: Electric keys
+  music_disc_cdk_sunday:
+    enabled: true
+    display_name: display-name-music_disc_cdk_sunday
+    permission: iamusic.music_disc_cdk_sunday
+    copyright: >-
+      cdk - Sunday by Analog By Nature (c) copyright 2016 Licensed under a
+      Creative Commons Attribution (3.0) license.
+      http://dig.ccmixter.org/files/cdk/53755 
+    lore:
+      - '&7Cdk - Sunday'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - item/music_disc_cdk_sunday
+    behaviours:
+      music_disc:
+        song:
+          name: iamusic:music_disc.cdk_sunday
+          description: Cdk - Sunday
+  music_disc_vidian_aether_theories:
+    enabled: true
+    display_name: display-name-music_disc_vidian_aether_theories
+    permission: iamusic.music_disc_vidian_aether_theories
+    copyright: >-
+      ~aether theories~ by Vidian (c) copyright 2018 Licensed under a Creative
+      Commons Attribution (3.0) license.
+      http://dig.ccmixter.org/files/Vidian/57398 Ft: Gurdonark, White-throated
+      Sparrow
+    lore:
+      - '&7Vidian - Aether Theories'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - item/music_disc_vidian_aether_theories
+    behaviours:
+      music_disc:
+        song:
+          name: iamusic:music_disc.vidian_aether_theories
+          description: Vidian - Aether Theories

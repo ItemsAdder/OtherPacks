@@ -1,0 +1,45 @@
+info:
+  namespace: iadeco
+items:
+  white_chandeliers:
+    enabled: true
+    display_name: display-name-white_chandeliers
+    permission: iadeco.decorations.chandeliers.white_chandeliers
+    resource:
+      material: PAPER
+      generate: false
+      model_path: white_chandeliers
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 12
+  black_chandeliers:
+    enabled: true
+    display_name: display-name-black_chandeliers
+    permission: iadeco.decorations.chandeliers.black_chandeliers
+    resource:
+      material: PAPER
+      generate: false
+      model_path: black_chandeliers
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 12
+  black_and_red_chandeliers:
+    enabled: true
+    display_name: display-name-black_and_red_chandeliers
+    permission: iadeco.decorations.chandeliers.black_and_red_chandeliers
+    resource:
+      material: PAPER
+      generate: false
+      model_path: black_and_red_chandeliers
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 12

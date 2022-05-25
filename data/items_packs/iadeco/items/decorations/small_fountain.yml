@@ -1,0 +1,17 @@
+info:
+  namespace: iadeco
+items:
+  small_fountain:
+    enabled: true
+    display_name: display-name-small_fountain
+    permission: iadeco.decorations.small_fountain
+    resource:
+      material: PAPER
+      generate: false
+      model_path: small_fountain
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        solid: true

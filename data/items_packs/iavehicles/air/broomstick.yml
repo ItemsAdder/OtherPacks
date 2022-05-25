@@ -1,0 +1,30 @@
+info:
+  namespace: iavehicles
+items:
+  broomstick:
+    enabled: true
+    display_name: display-name-broomstick
+    permission: iavehicles.air.broomstick
+    resource:
+      material: PAPER
+      generate: false
+      model_path: air/broomstick
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 1000
+          items:
+            energy_orb: 2
+            small_energy_capsule: 16
+            energy_capsule: 128

@@ -1,0 +1,21 @@
+info:
+  namespace: iadeco
+items:
+  dark_throne:
+    enabled: true
+    display_name: display-name-dark_throne
+    permission: iadeco.decorations.dark_throne
+    resource:
+      material: PAPER
+      generate: false
+      model_path: dark_throne
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        hitbox:
+          length: 3
+          width: 3
+          height: 3
+      furniture_sit:
+        sit_height: 3.2

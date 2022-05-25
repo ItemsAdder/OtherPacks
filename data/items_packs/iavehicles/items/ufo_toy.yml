@@ -1,0 +1,23 @@
+info:
+  namespace: iavehicles
+items:
+  ufo_toy:
+    enabled: true
+    display_name: display-name-ufo_toy
+    permission: iavehicles.items.ufo_toy
+    lore:
+      - lore-1-ufo_toy
+    resource:
+      material: ENDER_EYE
+      generate: false
+      model_path: item/ufo_toy
+    durability:
+      usages: 15
+    events:
+      interact:
+        right:
+          decrement_usages:
+            amount: 1
+      item_throw:
+        play_particle:
+          name: ENCHANTMENT_TABLE

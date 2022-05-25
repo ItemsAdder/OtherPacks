@@ -1,0 +1,14 @@
+info:
+  namespace: iamusic
+categories:
+  musicdiscs:
+    enabled: true
+    skip_if_already: false
+    icon: iamusic:music_disc_electric_keys
+    name: display-category-musicdiscs
+    permission: ia.menu.seecategory.musicdiscs
+    items:
+      - iamusic:blank_disc
+      - iamusic:music_disc_electric_keys
+      - iamusic:music_disc_cdk_sunday
+      - iamusic:music_disc_vidian_aether_theories

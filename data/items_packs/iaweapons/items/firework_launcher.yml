@@ -1,0 +1,29 @@
+info:
+  namespace: iaweapons
+items:
+  firework_launcher:
+    enabled: true
+    display_name: display-name-firework_launcher
+    permission: iaweapons.items.firework_launcher
+    lore:
+      - lore-1-firework_launcher
+      - lore-2-firework_launcher
+      - lore-3-firework_launcher
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: firework_launcher/firework_launcher
+    durability:
+      max_custom_durability: 512
+    specific_properties:
+      crossbow:
+        multishot: false
+        firework: true
+    events:
+      gun_shot:
+        play_sound:
+          name: iaweapons:entity.firework_rocket.launch
+          volume: 1
+          pitch: 1
+        play_effect:
+          name: SMOKE

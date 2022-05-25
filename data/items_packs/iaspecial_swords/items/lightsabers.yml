@@ -1,0 +1,101 @@
+info:
+  namespace: iaspecial_swords
+items:
+  closed_lightsaber:
+    enabled: true
+    display_name: display-name-closed_lightsaber
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/closed_lightsaber
+    permission: iaspecial_swords.items.lightsabers.closed_lightsaber
+  green_lightsaber:
+    enabled: true
+    display_name: display-name-green_lightsaber
+    permission: iaspecial_swords.items.lightsabers.green_lightsaber
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/green_lightsaber
+    durability:
+      max_custom_durability: 2562
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8
+        attackSpeed: 1.2
+    events:
+      attack:
+        play_sound:
+          name: iaspecial_swords:item.lightsaber.attack
+          volume: 1
+          pitch: 1
+      interact:
+        right:
+          replace_properties:
+            custom_model_data:
+              copy_from_item: iaspecial_swords:closed_lightsaber
+              restorable: true
+          play_sound:
+            name: iaspecial_swords:item.lightsaber.open
+            volume: 1
+            pitch: 1
+  red_lightsaber:
+    enabled: true
+    display_name: display-name-red_lightsaber
+    permission: iaspecial_swords.items.lightsabers.red_lightsaber
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/red_lightsaber
+    durability:
+      max_custom_durability: 2562
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8
+        attackSpeed: 1.2
+    events:
+      attack:
+        play_sound:
+          name: iaspecial_swords:item.lightsaber.attack
+          volume: 1
+          pitch: 1
+      interact:
+        right:
+          replace_properties:
+            custom_model_data:
+              copy_from_item: iaspecial_swords:closed_lightsaber
+              restorable: true
+          play_sound:
+            name: iaspecial_swords:item.lightsaber.open
+            volume: 1
+            pitch: 1
+  blue_lightsaber:
+    enabled: true
+    display_name: display-name-blue_lightsaber
+    permission: iaspecial_swords.items.lightsabers.blue_lightsaber
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/blue_lightsaber
+    durability:
+      max_custom_durability: 2562
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8
+        attackSpeed: 1.2
+    events:
+      attack:
+        play_sound:
+          name: iaspecial_swords:item.lightsaber.attack
+          volume: 1
+          pitch: 1
+      interact:
+        right:
+          replace_properties:
+            custom_model_data:
+              copy_from_item: iaspecial_swords:closed_lightsaber
+              restorable: true
+          play_sound:
+            name: iaspecial_swords:item.lightsaber.open
+            volume: 1
+            pitch: 1

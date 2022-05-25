@@ -1,0 +1,17 @@
+info:
+  namespace: iadeco
+items:
+  lit_campfire:
+    enabled: true
+    display_name: display-name-lit_campfire
+    permission: iadeco.decorations.lit_campfire
+    resource:
+      material: PAPER
+      generate: false
+      model_path: lit_campfire
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 15

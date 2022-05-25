@@ -1,0 +1,16 @@
+info:
+  namespace: iaweapons
+items:
+  shotgun_cartridge:
+    enabled: true
+    display_name: display-name-shotgun_cartridge
+    permission: iaweapons.items.shotgun_cartridge
+    lore:
+      - lore-1-shotgun_cartridge
+      - lore-2-shotgun_cartridge
+      - lore-3-shotgun_cartridge
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - shotgun_cartridge

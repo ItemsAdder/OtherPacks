@@ -1,0 +1,30 @@
+info:
+  namespace: iaspecial_swords
+items:
+  gandalf_stick:
+    enabled: true
+    display_name: display-name-gandalf_stick
+    permission: iaspecial_swords.items.gandalf_stick
+    resource:
+      material: WOODEN_SWORD
+      generate: false
+      model_path: item/gandalf_stick
+    durability:
+      max_custom_durability: 850
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 6
+        attackSpeed: 2.1
+    events:
+      interact:
+        left:
+          play_particle:
+            name: ENCHANTMENT_TABLE
+        right:
+          play_particle:
+            name: ENCHANTMENT_TABLE
+          decrement_durability:
+            amount: 1
+      attack:
+        play_particle:
+          name: ENCHANTMENT_TABLE

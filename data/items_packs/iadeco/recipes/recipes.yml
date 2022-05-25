@@ -1,0 +1,266 @@
+info:
+  namespace: iadeco
+recipes:
+  crafting_table:
+    old_clock:
+      permission: iadeco.old_clock
+      enabled: true
+      pattern:
+        - WCW
+        - WGW
+        - WWW
+      ingredients:
+        C: CLOCK
+        W: LEGACY_WOOD
+        G: GOLD_INGOT
+      result:
+        item: iadeco:old_clock
+        amount: 1
+    opened_chest:
+      permission: iadeco.opened_chest
+      enabled: true
+      pattern:
+        - XGX
+        - XCX
+        - XXX
+      ingredients:
+        C: CHEST
+        G: GLASS
+      result:
+        item: iadeco:opened_chest
+        amount: 1
+    computer_desk:
+      permission: iadeco.computer_desk
+      enabled: true
+      pattern:
+        - XRX
+        - WWW
+        - SXS
+      ingredients:
+        R: REDSTONE
+        W: OAK_PLANKS
+        S: STICK
+      result:
+        item: iadeco:computer_desk
+        amount: 1
+    table:
+      permission: iadeco.table
+      enabled: true
+      pattern:
+        - XXX
+        - WWW
+        - WXW
+      ingredients:
+        W: OAK_PLANKS
+      result:
+        item: iadeco:table
+        amount: 1
+    lamp:
+      permission: iadeco.lamp
+      enabled: true
+      pattern:
+        - QTQ
+        - XSX
+        - XSX
+      ingredients:
+        Q: QUARTZ_BLOCK
+        T: TORCH
+        S: STICK
+      result:
+        item: iadeco:lamp
+        amount: 1
+    simple_chair:
+      permission: iadeco.simple_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PPP
+        - SXS
+      ingredients:
+        W: LIGHT_BLUE_WOOL
+        P: OAK_PLANKS
+        S: STICK
+      result:
+        item: iadeco:simple_chair
+        amount: 1
+    lava_lamp:
+      permission: iadeco.lava_lamp
+      enabled: true
+      pattern:
+        - XXX
+        - XLX
+        - XIX
+      ingredients:
+        L: LAVA_BUCKET
+        I: iasurvival:iron_plate
+      result:
+        item: iadeco:lava_lamp
+        amount: 1
+      return_items:
+        replace:
+          LAVA_BUCKET: BUCKET
+    white_chair:
+      permission: iadeco.white_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PPP
+        - SXS
+      ingredients:
+        W: WHITE_WOOL
+        P: OAK_PLANKS
+        S: STICK
+      result:
+        item: iadeco:white_chair
+        amount: 1
+    glass_table:
+      permission: iadeco.glass_table
+      enabled: true
+      pattern:
+        - XXX
+        - GGG
+        - IXI
+      ingredients:
+        G: GLASS_PANE
+        I: IRON_INGOT
+      result:
+        item: iadeco:glass_table
+        amount: 1
+    computer_chair:
+      permission: iadeco.computer_chair
+      enabled: true
+      pattern:
+        - XXX
+        - WWW
+        - SXS
+      ingredients:
+        W: WHITE_WOOL
+        S: STICK
+      result:
+        item: iadeco:computer_chair
+        amount: 1
+    monitor:
+      permission: iadeco.monitor
+      enabled: true
+      pattern:
+        - XXX
+        - POP
+        - XIX
+      ingredients:
+        P: iasurvival:plastic_plate
+        O: REDSTONE
+        I: IRON_INGOT
+      result:
+        item: iadeco:monitor
+        amount: 1
+    tv:
+      permission: iadeco.tv
+      enabled: true
+      pattern:
+        - PPP
+        - POP
+        - XIX
+      ingredients:
+        P: iasurvival:plastic_plate
+        O: REDSTONE
+        I: IRON_INGOT
+      result:
+        item: iadeco:tv
+        amount: 1
+    mini_fridge:
+      permission: iadeco.mini_fridge
+      enabled: true
+      pattern:
+        - POP
+        - ROB
+        - POP
+      ingredients:
+        P: iasurvival:iron_plate
+        B: STONE_BUTTON
+        O: SNOW_BLOCK
+        R: REDSTONE
+      result:
+        item: iadeco:mini_fridge
+        amount: 1
+    vending_machine:
+      permission: iadeco.vending_machine
+      enabled: true
+      pattern:
+        - III
+        - IRI
+        - III
+      ingredients:
+        R: REDSTONE
+        I: iasurvival:iron_plate
+      result:
+        item: iadeco:vending_machine
+        amount: 1
+    coffee_machine:
+      permission: iadeco.coffee_machine
+      enabled: true
+      pattern:
+        - III
+        - IRB
+        - III
+      ingredients:
+        R: REDSTONE
+        B: WATER_BUCKET
+        I: iasurvival:iron_plate
+      result:
+        item: iadeco:coffee_machine
+        amount: 1
+      return_items:
+        replace:
+          WATER_BUCKET: BUCKET
+    white_chandeliers:
+      permission: iadeco.white_chandeliers
+      enabled: true
+      pattern:
+        - XBX
+        - PWP
+        - PXP
+      ingredients:
+        P: iasurvival:plastic
+        B: IRON_BARS
+        W: IRON_BLOCK
+      result:
+        item: iadeco:white_chandeliers
+        amount: 1
+    small_fountain:
+      permission: iadeco.small_fountain
+      enabled: true
+      pattern:
+        - XWX
+        - XSX
+        - SSS
+      ingredients:
+        W: WATER_BUCKET
+        S: STONE_BRICKS
+      result:
+        item: iadeco:small_fountain
+        amount: 1
+    lit_campfire:
+      permission: iadeco.lit_campfire
+      enabled: true
+      pattern:
+        - XXX
+        - SFS
+        - SSS
+      ingredients:
+        S: iadeco:cut_spruce_log
+        F: FLINT_AND_STEEL
+      result:
+        item: iadeco:lit_campfire
+        amount: 1
+    cut_spruce_log:
+      permission: iadeco.cut_spruce_log
+      enabled: true
+      pattern:
+        - XXX
+        - XWX
+        - XWX
+      ingredients:
+        W: SPRUCE_LOG
+      result:
+        item: iadeco:cut_spruce_log
+        amount: 6

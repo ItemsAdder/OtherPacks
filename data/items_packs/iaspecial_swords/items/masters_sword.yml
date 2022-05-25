@@ -1,0 +1,16 @@
+info:
+  namespace: iaspecial_swords
+items:
+  masters_sword:
+    enabled: true
+    display_name: display-name-masters_sword
+    permission: iaspecial_swords.items.masters_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/masters_sword
+    durability:
+      max_custom_durability: 1756
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8

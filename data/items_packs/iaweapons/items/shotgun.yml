@@ -1,0 +1,37 @@
+info:
+  namespace: iaweapons
+items:
+  shotgun:
+    enabled: true
+    display_name: display-name-shotgun
+    permission: iaweapons.items.shotgun
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: shotgun/shotgun
+    durability:
+      max_custom_durability: 2048
+    behaviours:
+      gun:
+        projectile: iaweapons:shotgun_cartridge
+    specific_properties:
+      crossbow:
+        multishot: true
+    events:
+      gun_shot:
+        play_sound:
+          name: iaweapons:item.shotgun.shot
+          volume: 1
+          pitch: 1
+        play_effect:
+          name: SMOKE
+      gun_reload:
+        play_sound:
+          name: iaweapons:item.shotgun.reload
+          volume: 1
+          pitch: 1
+      gun_no_ammo:
+        play_sound:
+          name: iaweapons:item.revolver.no_ammo
+          volume: 1
+          pitch: 1

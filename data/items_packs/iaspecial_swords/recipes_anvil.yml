@@ -1,0 +1,54 @@
+info:
+  namespace: iaspecial_swords
+recipes:
+  anvil_repair:
+    blue_lightsaber:
+      enabled: true
+      permission: iaspecial_swords.blue_lightsaber
+      ingredient: DIAMOND
+      item: iaspecial_swords:blue_lightsaber
+    green_lightsaber:
+      enabled: true
+      permission: iaspecial_swords.green_lightsaber
+      ingredient: EMERALD
+      item: iaspecial_swords:green_lightsaber
+    red_lightsaber:
+      enabled: true
+      permission: iaspecial_swords.red_lightsaber
+      ingredient: REDSTONE_BLOCK
+      item: iaspecial_swords:red_lightsaber
+    masters_sword:
+      enabled: true
+      permission: iaspecial_swords.masters_sword
+      ingredient: DIAMOND
+      item: iaspecial_swords:masters_sword
+    floating_sword:
+      enabled: true
+      permission: iaspecial_swords.floating_sword
+      ingredient: DIAMOND
+      item: iaspecial_swords:floating_sword
+    baseball_bat:
+      enabled: true
+      permission: iaspecial_swords.baseball_bat
+      ingredient: OAK_PLANKS
+      item: iaspecial_swords:baseball_bat
+    gandalf_stick:
+      enabled: true
+      permission: iaspecial_swords.gandalf_stick
+      ingredient: STICK
+      item: iaspecial_swords:gandalf_stick
+    elucidator_sword:
+      enabled: true
+      permission: iaspecial_swords.elucidator_sword
+      ingredient: OBSIDIAN
+      item: iaspecial_swords:elucidator_sword
+    repulser_sword:
+      enabled: true
+      permission: iaspecial_swords.repulser_sword
+      ingredient: DIAMOND
+      item: iaspecial_swords:repulser_sword
+    guitar_sword:
+      enabled: true
+      permission: iaspecial_swords.guitar_sword
+      ingredient: REDSTONE
+      item: iaspecial_swords:guitar_sword

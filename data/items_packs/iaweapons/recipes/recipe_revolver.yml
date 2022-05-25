@@ -1,0 +1,18 @@
+info:
+  namespace: iaweapons
+recipes:
+  crafting_table:
+    revolver:
+      permission: iaweapons.revolver
+      enabled: true
+      pattern:
+        - III
+        - ISX
+        - WXX
+      ingredients:
+        I: IRON_INGOT
+        S: STICK
+        W: OAK_PLANKS
+      result:
+        item: iaweapons:revolver
+        amount: 1

@@ -1,0 +1,35 @@
+info:
+  namespace: iavehicles
+categories:
+  vehicles:
+    enabled: true
+    skip_if_already: false
+    icon: iavehicles:white_go_cart
+    name: display-category-vehicles
+    permission: ia.menu.seecategory.vehicles
+    items:
+      - iavehicles:shopping_cart
+      - iavehicles:white_go_cart
+      - iavehicles:orange_go_cart
+      - iavehicles:magenta_go_cart
+      - iavehicles:light_blue_go_cart
+      - iavehicles:yellow_go_cart
+      - iavehicles:lime_go_cart
+      - iavehicles:pink_go_cart
+      - iavehicles:gray_go_cart
+      - iavehicles:light_gray_go_cart
+      - iavehicles:cyan_go_cart
+      - iavehicles:purple_go_cart
+      - iavehicles:blue_go_cart
+      - iavehicles:brown_go_cart
+      - iavehicles:green_go_cart
+      - iavehicles:red_go_cart
+      - iavehicles:black_go_cart
+      - iavehicles:oak_wood_plane
+      - iavehicles:spruce_wood_plane
+      - iavehicles:birch_wood_plane
+      - iavehicles:jungle_wood_plane
+      - iavehicles:acacia_wood_plane
+      - iavehicles:dark_oak_wood_plane
+      - iavehicles:ufo
+      - iavehicles:ufo_toy

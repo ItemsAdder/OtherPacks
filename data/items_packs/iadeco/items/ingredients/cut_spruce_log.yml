@@ -1,0 +1,11 @@
+info:
+  namespace: iadeco
+items:
+  cut_spruce_log:
+    enabled: true
+    display_name: display-name-cut_spruce_log
+    permission: iadeco.ingredients.cut_spruce_log
+    resource:
+      material: STICK
+      generate: false
+      model_path: item/cut_spruce_log

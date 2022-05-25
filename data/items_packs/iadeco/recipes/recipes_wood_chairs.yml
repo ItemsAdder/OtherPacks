@@ -1,0 +1,212 @@
+info:
+  namespace: iadeco
+recipes:
+  crafting_table:
+    white_wood_chair:
+      permission: iadeco.wood_chairs.white_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: WHITE_WOOL
+      result:
+        item: iadeco:white_wood_chair
+        amount: 1
+    orange_wood_chair:
+      permission: iadeco.wood_chairs.orange_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: ORANGE_WOOL
+      result:
+        item: iadeco:orange_wood_chair
+        amount: 1
+    magenta_wood_chair:
+      permission: iadeco.wood_chairs.magenta_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: MAGENTA_WOOL
+      result:
+        item: iadeco:magenta_wood_chair
+        amount: 1
+    light_blue_wood_chair:
+      permission: iadeco.wood_chairs.light_blue_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: LIGHT_BLUE_WOOL
+      result:
+        item: iadeco:light_blue_wood_chair
+        amount: 1
+    yellow_wood_chair:
+      permission: iadeco.wood_chairs.yellow_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: YELLOW_WOOL
+      result:
+        item: iadeco:yellow_wood_chair
+        amount: 1
+    lime_wood_chair:
+      permission: iadeco.wood_chairs.lime_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: LIME_WOOL
+      result:
+        item: iadeco:lime_wood_chair
+        amount: 1
+    pink_wood_chair:
+      permission: iadeco.wood_chairs.pink_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: PINK_WOOL
+      result:
+        item: iadeco:pink_wood_chair
+        amount: 1
+    gray_wood_chair:
+      permission: iadeco.wood_chairs.gray_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: GRAY_WOOL
+      result:
+        item: iadeco:gray_wood_chair
+        amount: 1
+    light_gray_wood_chair:
+      permission: iadeco.wood_chairs.light_gray_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: LIGHT_GRAY_WOOL
+      result:
+        item: iadeco:light_gray_wood_chair
+        amount: 1
+    cyan_wood_chair:
+      permission: iadeco.wood_chairs.cyan_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: CYAN_WOOL
+      result:
+        item: iadeco:cyan_wood_chair
+        amount: 1
+    purple_wood_chair:
+      permission: iadeco.wood_chairs.purple_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: PURPLE_WOOL
+      result:
+        item: iadeco:purple_wood_chair
+        amount: 1
+    blue_wood_chair:
+      permission: iadeco.wood_chairs.blue_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: BLUE_WOOL
+      result:
+        item: iadeco:blue_wood_chair
+        amount: 1
+    brown_wood_chair:
+      permission: iadeco.wood_chairs.brown_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: BROWN_WOOL
+      result:
+        item: iadeco:brown_wood_chair
+        amount: 1
+    green_wood_chair:
+      permission: iadeco.wood_chairs.green_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: GREEN_WOOL
+      result:
+        item: iadeco:green_wood_chair
+        amount: 1
+    red_wood_chair:
+      permission: iadeco.wood_chairs.red_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: RED_WOOL
+      result:
+        item: iadeco:red_wood_chair
+        amount: 1
+    black_wood_chair:
+      permission: iadeco.wood_chairs.black_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: BLACK_WOOL
+      result:
+        item: iadeco:black_wood_chair
+        amount: 1

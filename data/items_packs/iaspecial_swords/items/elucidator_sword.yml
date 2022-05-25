@@ -1,0 +1,17 @@
+info:
+  namespace: iaspecial_swords
+items:
+  elucidator_sword:
+    enabled: true
+    display_name: display-name-elucidator_sword
+    permission: iaspecial_swords.items.elucidator_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+        - item/elucidator_sword
+    durability:
+      max_custom_durability: 1756
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8

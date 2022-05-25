@@ -1,0 +1,16 @@
+info:
+  namespace: iaweapons
+items:
+  clip:
+    enabled: true
+    display_name: display-name-clip
+    permission: iaweapons.items.clip
+    lore:
+      - lore-1-clip
+      - lore-2-clip
+      - lore-3-clip
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - clip

@@ -1,0 +1,55 @@
+info:
+  namespace: iamusic
+recipes:
+  crafting_table:
+    blank_disc:
+      permission: iamusic.blank_disc
+      enabled: true
+      pattern:
+        - PPP
+        - PXP
+        - PPP
+      ingredients:
+        P: iasurvival:plastic
+      result:
+        item: iamusic:blank_disc
+        amount: 1
+    music_disc_electric_keys:
+      permission: iamusic.music_disc_electric_keys
+      enabled: true
+      pattern:
+        - XXX
+        - XBD
+        - XXX
+      ingredients:
+        B: iamusic:blank_disc
+        D: DIAMOND
+      result:
+        item: iamusic:music_disc_electric_keys
+        amount: 1
+    music_disc_cdk_sunday:
+      permission: iamusic.music_disc_cdk_sunday
+      enabled: true
+      pattern:
+        - XXX
+        - XBD
+        - XXX
+      ingredients:
+        B: iamusic:blank_disc
+        D: iasurvival:dark_amethyst_prism
+      result:
+        item: iamusic:music_disc_cdk_sunday
+        amount: 1
+    music_disc_vidian_aether_theories:
+      permission: iamusic.music_disc_vidian_aether_theories
+      enabled: true
+      pattern:
+        - XXX
+        - XBD
+        - XXX
+      ingredients:
+        B: iamusic:blank_disc
+        D: iasurvival:ruby
+      result:
+        item: iamusic:music_disc_vidian_aether_theories
+        amount: 1

@@ -1,0 +1,18 @@
+info:
+  namespace: iaweapons
+recipes:
+  crafting_table:
+    clip:
+      permission: iaweapons.clip
+      enabled: true
+      pattern:
+        - XRX
+        - XGX
+        - XPX
+      ingredients:
+        R: REDSTONE
+        G: GOLD_INGOT
+        P: iasurvival:plastic_plate
+      result:
+        item: iaweapons:clip
+        amount: 16

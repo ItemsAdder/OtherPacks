@@ -1,0 +1,14 @@
+info:
+  namespace: iaspecial_swords
+items:
+  floating_sword:
+    enabled: true
+    display_name: display-name-floating_sword
+    permission: iaspecial_swords.items.floating_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/floating_sword
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8

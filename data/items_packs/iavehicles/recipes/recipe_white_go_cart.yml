@@ -1,0 +1,19 @@
+info:
+  namespace: iavehicles
+recipes:
+  crafting_table:
+    white_go_cart:
+      permission: iavehicles.white_go_cart
+      enabled: true
+      pattern:
+        - ORO
+        - OOO
+        - WBW
+      ingredients:
+        O: IRON_BLOCK
+        W: iasurvival:plastic_plate
+        B: BLACK_DYE
+        R: REDSTONE_BLOCK
+      result:
+        item: iavehicles:white_go_cart
+        amount: 1

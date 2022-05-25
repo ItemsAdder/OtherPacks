@@ -1,0 +1,17 @@
+info:
+  namespace: iaweapons
+recipes:
+  crafting_table:
+    hand_gun:
+      permission: iaweapons.hand_gun
+      enabled: true
+      pattern:
+        - III
+        - ISX
+        - IXX
+      ingredients:
+        I: IRON_INGOT
+        S: STICK
+      result:
+        item: iaweapons:hand_gun
+        amount: 1

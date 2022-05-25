@@ -1,0 +1,17 @@
+info:
+  namespace: iadeco
+items:
+  computer_desk:
+    enabled: true
+    display_name: display-name-computer_desk
+    permission: iadeco.decorations.computer_desk
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: computer_desk
+    behaviours:
+      furniture:
+        small: true
+        solid: true

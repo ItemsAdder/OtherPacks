@@ -1,0 +1,29 @@
+info:
+  namespace: iaweapons
+items:
+  ak47:
+    enabled: true
+    display_name: display-name-ak47
+    permission: iaweapons.items.ak47
+    resource:
+      material: GOLDEN_SWORD
+      generate: false
+      model_path: ak47
+    durability:
+      max_custom_durability: 2560
+    behaviours:
+      gun:
+        projectile: iaweapons:clip
+    events:
+      gun_shot:
+        play_sound:
+          name: iaweapons:item.revolver.shot
+          volume: 1
+          pitch: 1
+        play_effect:
+          name: SMOKE
+      gun_no_ammo:
+        play_sound:
+          name: iaweapons:item.revolver.no_ammo
+          volume: 1
+          pitch: 1

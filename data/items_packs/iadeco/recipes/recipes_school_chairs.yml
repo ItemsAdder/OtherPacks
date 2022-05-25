@@ -1,0 +1,32 @@
+info:
+  namespace: iadeco
+recipes:
+  crafting_table:
+    school_chair:
+      permission: iadeco.school_chairs.school_chair
+      enabled: true
+      pattern:
+        - XXO
+        - OOO
+        - SSO
+      ingredients:
+        O: DARK_OAK_PLANKS
+        S: STICK
+      result:
+        item: iadeco:school_chair
+        amount: 1
+    school_chair_lazy:
+      permission: iadeco.school_chairs.school_chair_lazy
+      enabled: true
+      pattern:
+        - PCO
+        - OOO
+        - SSO
+      ingredients:
+        O: DARK_OAK_PLANKS
+        S: STICK
+        C: CREEPER_HEAD
+        P: PAPER
+      result:
+        item: iadeco:school_chair_lazy
+        amount: 1

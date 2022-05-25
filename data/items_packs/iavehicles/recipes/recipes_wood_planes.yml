@@ -1,0 +1,94 @@
+info:
+  namespace: iavehicles
+recipes:
+  crafting_table:
+    oak_wood_plane:
+      permission: iavehicles.wood_planes.oak_wood_plane
+      enabled: true
+      pattern:
+        - WRW
+        - FBF
+        - WQW
+      ingredients:
+        W: OAK_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: iavehicles:oak_wood_plane
+        amount: 1
+    spruce_wood_plane:
+      permission: iavehicles.wood_planes.spruce_wood_plane
+      enabled: true
+      pattern:
+        - WRW
+        - FBF
+        - WQW
+      ingredients:
+        W: SPRUCE_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: iavehicles:spruce_wood_plane
+        amount: 1
+    birch_wood_plane:
+      permission: iavehicles.wood_planes.birch_wood_plane
+      enabled: true
+      pattern:
+        - WRW
+        - FBF
+        - WQW
+      ingredients:
+        W: BIRCH_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: iavehicles:birch_wood_plane
+        amount: 1
+    jungle_wood_plane:
+      permission: iavehicles.wood_planes.jungle_wood_plane
+      enabled: true
+      pattern:
+        - WRW
+        - FBF
+        - WQW
+      ingredients:
+        W: JUNGLE_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: iavehicles:jungle_wood_plane
+        amount: 1
+    acacia_wood_plane:
+      permission: iavehicles.wood_planes.acacia_wood_plane
+      enabled: true
+      pattern:
+        - WRW
+        - FBF
+        - WQW
+      ingredients:
+        W: ACACIA_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: iavehicles:acacia_wood_plane
+        amount: 1
+    dark_oak_wood_plane:
+      permission: iavehicles.wood_planes.dark_oak_wood_plane
+      enabled: true
+      pattern:
+        - WRW
+        - FBF
+        - WQW
+      ingredients:
+        W: DARK_OAK_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: iavehicles:dark_oak_wood_plane
+        amount: 1

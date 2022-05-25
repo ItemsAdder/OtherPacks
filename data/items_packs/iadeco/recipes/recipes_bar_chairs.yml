@@ -1,0 +1,212 @@
+info:
+  namespace: iadeco
+recipes:
+  crafting_table:
+    white_bar_chair:
+      permission: iadeco.bar_chairs.white_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: WHITE_WOOL
+      result:
+        item: iadeco:white_bar_chair
+        amount: 1
+    orange_bar_chair:
+      permission: iadeco.bar_chairs.orange_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: ORANGE_WOOL
+      result:
+        item: iadeco:orange_bar_chair
+        amount: 1
+    magenta_bar_chair:
+      permission: iadeco.bar_chairs.magenta_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: MAGENTA_WOOL
+      result:
+        item: iadeco:magenta_bar_chair
+        amount: 1
+    light_blue_bar_chair:
+      permission: iadeco.bar_chairs.light_blue_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: LIGHT_BLUE_WOOL
+      result:
+        item: iadeco:light_blue_bar_chair
+        amount: 1
+    yellow_bar_chair:
+      permission: iadeco.bar_chairs.yellow_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: YELLOW_WOOL
+      result:
+        item: iadeco:yellow_bar_chair
+        amount: 1
+    lime_bar_chair:
+      permission: iadeco.bar_chairs.lime_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: LIME_WOOL
+      result:
+        item: iadeco:lime_bar_chair
+        amount: 1
+    pink_bar_chair:
+      permission: iadeco.bar_chairs.pink_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: PINK_WOOL
+      result:
+        item: iadeco:pink_bar_chair
+        amount: 1
+    gray_bar_chair:
+      permission: iadeco.bar_chairs.gray_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: GRAY_WOOL
+      result:
+        item: iadeco:gray_bar_chair
+        amount: 1
+    light_gray_bar_chair:
+      permission: iadeco.bar_chairs.light_gray_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: LIGHT_GRAY_WOOL
+      result:
+        item: iadeco:light_gray_bar_chair
+        amount: 1
+    cyan_bar_chair:
+      permission: iadeco.bar_chairs.cyan_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: CYAN_WOOL
+      result:
+        item: iadeco:cyan_bar_chair
+        amount: 1
+    purple_bar_chair:
+      permission: iadeco.bar_chairs.purple_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: PURPLE_WOOL
+      result:
+        item: iadeco:purple_bar_chair
+        amount: 1
+    blue_bar_chair:
+      permission: iadeco.bar_chairs.blue_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: BLUE_WOOL
+      result:
+        item: iadeco:blue_bar_chair
+        amount: 1
+    brown_bar_chair:
+      permission: iadeco.bar_chairs.brown_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: BROWN_WOOL
+      result:
+        item: iadeco:brown_bar_chair
+        amount: 1
+    green_bar_chair:
+      permission: iadeco.bar_chairs.green_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: GREEN_WOOL
+      result:
+        item: iadeco:green_bar_chair
+        amount: 1
+    red_bar_chair:
+      permission: iadeco.bar_chairs.red_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: RED_WOOL
+      result:
+        item: iadeco:red_bar_chair
+        amount: 1
+    black_bar_chair:
+      permission: iadeco.bar_chairs.black_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: BLACK_WOOL
+      result:
+        item: iadeco:black_bar_chair
+        amount: 1

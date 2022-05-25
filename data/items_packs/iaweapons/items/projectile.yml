@@ -1,0 +1,16 @@
+info:
+  namespace: iaweapons
+items:
+  projectile:
+    enabled: true
+    display_name: display-name-projectile
+    permission: iaweapons.items.projectile
+    lore:
+      - lore-1-projectile
+      - lore-2-projectile
+      - lore-3-projectile
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - projectile

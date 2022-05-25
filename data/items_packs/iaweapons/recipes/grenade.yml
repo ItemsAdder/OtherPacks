@@ -1,0 +1,18 @@
+info:
+  namespace: iaweapons
+recipes:
+  crafting_table:
+    grenade:
+      permission: iaweapons.grenade
+      enabled: true
+      pattern:
+        - XSX
+        - PTP
+        - XPX
+      ingredients:
+        S: STRING
+        T: TNT
+        P: iasurvival:plastic_plate
+      result:
+        item: iaweapons:grenade
+        amount: 4

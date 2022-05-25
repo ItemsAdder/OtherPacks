@@ -1,0 +1,29 @@
+info:
+  namespace: iaweapons
+items:
+  hand_gun:
+    enabled: true
+    display_name: display-name-hand_gun
+    permission: iaweapons.items.hand_gun
+    resource:
+      material: GOLDEN_SWORD
+      generate: false
+      model_path: hand_gun
+    durability:
+      max_custom_durability: 1562
+    behaviours:
+      gun:
+        projectile: iaweapons:projectile
+    events:
+      gun_shot:
+        play_sound:
+          name: iaweapons:item.revolver.shot
+          volume: 1
+          pitch: 1
+        play_effect:
+          name: SMOKE
+      gun_no_ammo:
+        play_sound:
+          name: iaweapons:item.revolver.no_ammo
+          volume: 1
+          pitch: 1

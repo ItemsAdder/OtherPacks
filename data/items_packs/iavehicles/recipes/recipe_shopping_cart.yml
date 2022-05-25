@@ -1,0 +1,18 @@
+info:
+  namespace: iavehicles
+recipes:
+  crafting_table:
+    shopping_cart:
+      permission: iavehicles.shopping_cart
+      enabled: true
+      pattern:
+        - OXO
+        - OOO
+        - WBW
+      ingredients:
+        O: IRON_BARS
+        W: iasurvival:plastic_plate
+        B: BLACK_DYE
+      result:
+        item: iavehicles:shopping_cart
+        amount: 1

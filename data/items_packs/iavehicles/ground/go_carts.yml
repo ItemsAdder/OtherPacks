@@ -1,0 +1,515 @@
+info:
+  namespace: iavehicles
+items:
+  white_go_cart:
+    enabled: true
+    display_name: display-name-white_go_cart
+    permission: iavehicles.ground.go_carts.white_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/white_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  orange_go_cart:
+    enabled: true
+    display_name: display-name-orange_go_cart
+    permission: iavehicles.ground.go_carts.orange_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/orange_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  magenta_go_cart:
+    enabled: true
+    display_name: display-name-magenta_go_cart
+    permission: iavehicles.ground.go_carts.magenta_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/magenta_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  light_blue_go_cart:
+    enabled: true
+    display_name: display-name-light_blue_go_cart
+    permission: iavehicles.ground.go_carts.light_blue_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/light_blue_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  yellow_go_cart:
+    enabled: true
+    display_name: display-name-yellow_go_cart
+    permission: iavehicles.ground.go_carts.yellow_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/yellow_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  lime_go_cart:
+    enabled: true
+    display_name: display-name-lime_go_cart
+    permission: iavehicles.ground.go_carts.lime_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/lime_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  pink_go_cart:
+    enabled: true
+    display_name: display-name-pink_go_cart
+    permission: iavehicles.ground.go_carts.pink_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/pink_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  gray_go_cart:
+    enabled: true
+    display_name: display-name-gray_go_cart
+    permission: iavehicles.ground.go_carts.gray_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/gray_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  light_gray_go_cart:
+    enabled: true
+    display_name: display-name-light_gray_go_cart
+    permission: iavehicles.ground.go_carts.light_gray_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/light_gray_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  cyan_go_cart:
+    enabled: true
+    display_name: display-name-cyan_go_cart
+    permission: iavehicles.ground.go_carts.cyan_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/cyan_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  purple_go_cart:
+    enabled: true
+    display_name: display-name-purple_go_cart
+    permission: iavehicles.ground.go_carts.purple_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/purple_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  blue_go_cart:
+    enabled: true
+    display_name: display-name-blue_go_cart
+    permission: iavehicles.ground.go_carts.blue_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/blue_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  brown_go_cart:
+    enabled: true
+    display_name: display-name-brown_go_cart
+    permission: iavehicles.ground.go_carts.brown_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/brown_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  green_go_cart:
+    enabled: true
+    display_name: display-name-green_go_cart
+    permission: iavehicles.ground.go_carts.green_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/green_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  red_go_cart:
+    enabled: true
+    display_name: display-name-red_go_cart
+    permission: iavehicles.ground.go_carts.red_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/red_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8
+  black_go_cart:
+    enabled: true
+    display_name: display-name-black_go_cart
+    permission: iavehicles.ground.go_carts.black_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: ground/black_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            'y': 0
+            z: -0.8

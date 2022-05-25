@@ -1,0 +1,27 @@
+info:
+  namespace: iaspecial_swords
+items:
+  guitar_sword:
+    enabled: true
+    display_name: display-name-guitar_sword
+    permission: iaspecial_swords.items.guitar_sword
+    resource:
+      material: WOODEN_SWORD
+      generate: true
+      textures:
+        - item/guitar_sword
+    durability:
+      max_custom_durability: 6
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 2
+        attackSpeed: 0.5
+    events:
+      interact:
+        right:
+          play_sound:
+            name: iaspecial_swords:item.guitar.play
+            volume: 1
+            pitch: 1
+          play_particle:
+            name: NOTE
